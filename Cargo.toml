@@ -1,0 +1,12 @@
+[package]
+name = "orca-sdk"
+version = "0.1.0"
+edition = "2024"
+authors = ["happyboy <superhappyboy1995@gmail.com>"]
+description = "orca sdk"
+keywords = ["trade", "crypto", "finance", "solana", "orca"]
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/0xhappyboy/orca-sdk"
+
+[dependencies]
