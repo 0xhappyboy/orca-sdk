@@ -53,3 +53,5 @@ pub const WHIRLPOOL_TICK_SPACING_OFFSET: usize = 72;
 pub const WHIRLPOOL_FEE_RATE_OFFSET: usize = 74;
 pub const WHIRLPOOL_LIQUIDITY_OFFSET: usize = 200;
 pub const WHIRLPOOL_SQRT_PRICE_OFFSET: usize = 216;
+// Token Metadata Program
+pub const TOKEN_METADATA_PROGRAM_ID: &str = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
