@@ -44,3 +44,12 @@ pub const WSOL_MINT: &str = "So11111111111111111111111111111111111111112";
 pub const TOKEN_PROGRAM_ID: &str = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
 pub const ASSOCIATED_TOKEN_PROGRAM_ID: &str = "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL";
 pub const SYSTEM_PROGRAM_ID: &str = "11111111111111111111111111111111";
+
+// Whirlpool account data offset constant
+pub const WHIRLPOOL_TOKEN_MINT_A_OFFSET: usize = 8;
+pub const WHIRLPOOL_TOKEN_MINT_B_OFFSET: usize = 40;
+// Whirlpool account data offsets
+pub const WHIRLPOOL_TICK_SPACING_OFFSET: usize = 72;
+pub const WHIRLPOOL_FEE_RATE_OFFSET: usize = 74;
+pub const WHIRLPOOL_LIQUIDITY_OFFSET: usize = 200;
+pub const WHIRLPOOL_SQRT_PRICE_OFFSET: usize = 216;
